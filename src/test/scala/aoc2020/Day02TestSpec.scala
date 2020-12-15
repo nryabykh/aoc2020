@@ -5,11 +5,11 @@ import org.scalatest.Matchers._
 
 class Day02TestSpec extends AoCTest {
 
-  private val sampleInput = """1-3 a: abcde
+  override def sampleInput = """1-3 a: abcde
                 |1-3 b: cdefg
                 |2-9 c: ccccccccc""".stripMargin
 
-  private val testInput = """1-4 m: mrfmmbjxr
+  override def testInput = """1-4 m: mrfmmbjxr
                 |5-16 b: bbbbhbbbbpbxbbbcb
                 |7-8 x: qxrxmxccxxx
                 |9-11 k: kkkkkkktmkhk
