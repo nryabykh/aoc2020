@@ -3,7 +3,7 @@ package com.github.nryabykh.aoc2020
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers._
 
-class DayOneTestSpec extends FlatSpec {
+class Day01TestSpec extends FlatSpec {
 
   def convertInputToList(input: String): List[Int] = {
     input.split("\n").map(_.trim.toInt).toList
@@ -17,7 +17,7 @@ class DayOneTestSpec extends FlatSpec {
     675
     1456"""
 
-    val calculator = DayOneReportRepair()
+    val calculator = Day01ReportRepair()
     calculator.getTwoMultiplication(convertInputToList(input)) should be (514579)
   }
 
@@ -29,7 +29,7 @@ class DayOneTestSpec extends FlatSpec {
     675
     1456"""
 
-    val calculator = DayOneReportRepair()
+    val calculator = Day01ReportRepair()
     calculator.getThreeMultiplication(convertInputToList(input)) should be (241861950)
   }
 
@@ -234,7 +234,7 @@ class DayOneTestSpec extends FlatSpec {
                   |1287
                   |1641
                   |1760""".stripMargin
-    val calculator = DayOneReportRepair()
+    val calculator = Day01ReportRepair()
     val result = calculator.getTwoMultiplication(convertInputToList(input))
     println(result)
     result should be > 0
@@ -441,7 +441,7 @@ class DayOneTestSpec extends FlatSpec {
                   |1287
                   |1641
                   |1760""".stripMargin
-    val calculator = DayOneReportRepair()
+    val calculator = Day01ReportRepair()
     val result = calculator.getThreeMultiplication(convertInputToList(input))
     println(result)
     result should be > 0

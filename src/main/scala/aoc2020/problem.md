@@ -36,3 +36,10 @@ In your expense report, what is the product of the three entries that sum to 202
 Your puzzle answer was 48914340.
 
 Both parts of this puzzle are complete! They provide two gold stars: **
+
+
+
+
+
+
+  

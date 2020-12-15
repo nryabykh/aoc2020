@@ -1,6 +1,6 @@
 package com.github.nryabykh.aoc2020
 
-case class DayOneReportRepair(filename: Option[String] = None) {
+case class Day01ReportRepair(filename: Option[String] = None) {
 
   def getTwoMultiplication(input: List[Int]): Int = {
     val second = input.map(x => 2020 - x)
